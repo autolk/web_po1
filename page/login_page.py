@@ -13,6 +13,7 @@ class LoginPage(Base):
         for cookie in cookies:
             self.driver.add_cookie(cookie)
         self.driver.get('https://work.weixin.qq.com/wework_admin/loginpage_wx?from=myhome_baidu')
+        time.sleep(5)
         return HomePage(self.driver)
 
 
