@@ -6,5 +6,6 @@ class HomePage(Base):
 
     def click_add(self):
         # self.driver.find_element_by_id()
-        self.driver.find_element(*self._BTN_ADD).click()
+        # self.driver.find_element(*self._BTN_ADD).click()
+        self.find_and_click(*self._BTN_ADD)
         return AddMemberPage(self.driver)
