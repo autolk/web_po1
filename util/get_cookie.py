@@ -12,6 +12,6 @@ class TestLogin():
         time.sleep(10)
 
         cookies = self.driver.get_cookies()
-        with open('./datas/cookies.yaml','w')as f:
+        with open('C:/Users/25238/Desktop/huo/web_po1/datas/cookies1.yaml','w')as f:
             yaml.safe_dump(data=cookies,stream=f)
             
