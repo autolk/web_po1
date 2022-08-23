@@ -10,7 +10,7 @@ def black_wrapper(fun):
         # from base.Base import Base
         Base = args[0]
         try:
-            # logging.info("开始查找元素：{args[2]}")
+            logging.info("开始查找元素：{args[2]}")
             print(args[0])
             print(args[1])
             print(args[2])
