@@ -1,0 +1,7 @@
+2022-08-30 14:14:17 [INFO] 开始查找元素：.index_service_cnt_item_title (base_handle.py:14)
+2022-08-30 14:14:27 [INFO] 开始查找元素：username (base_handle.py:14)
+2022-08-30 14:14:27 [INFO] 开始查找元素：memberAdd_acctid (base_handle.py:14)
+2022-08-30 14:14:28 [INFO] 开始查找元素：memberAdd_phon (base_handle.py:14)
+2022-08-30 14:14:33 [WARNING] 未找到元素，处理导演  (base_handle.py:21)
+2022-08-30 14:14:33 [INFO] 当前保存图片的路径 >>>C:\Users\25238\Desktop\huo\web_po1\base (base_handle.py:26)
+2022-08-30 14:14:33 [INFO] C:\Users\25238\Desktop\huo\web_po1\base\..\images\2022-08-30_14_14_33.png (base_handle.py:29)

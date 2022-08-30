@@ -1,0 +1,7 @@
+[32mINFO    [0m root:base_handle.py:14 开始查找元素：.index_service_cnt_item_title
+[32mINFO    [0m root:base_handle.py:14 开始查找元素：username
+[32mINFO    [0m root:base_handle.py:14 开始查找元素：memberAdd_acctid
+[32mINFO    [0m root:base_handle.py:14 开始查找元素：memberAdd_phon
+[33mWARNING [0m root:base_handle.py:21 未找到元素，处理导演 
+[32mINFO    [0m root:base_handle.py:26 当前保存图片的路径 >>>C:\Users\25238\Desktop\huo\web_po1\base
+[32mINFO    [0m root:base_handle.py:29 C:\Users\25238\Desktop\huo\web_po1\base\..\images\2022-08-30_14_14_33.png

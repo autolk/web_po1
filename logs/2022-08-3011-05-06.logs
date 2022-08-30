@@ -1,0 +1,6 @@
+2022-08-30 11:05:27 [INFO] 开始查找元素：.index_service_cnt_item_title (base_handle.py:14)
+2022-08-30 11:05:30 [INFO] 开始查找元素：username (base_handle.py:14)
+2022-08-30 11:05:30 [INFO] 开始查找元素：memberAdd_acctid (base_handle.py:14)
+2022-08-30 11:05:31 [INFO] 开始查找元素：memberAdd_phone (base_handle.py:14)
+2022-08-30 11:05:31 [INFO] 开始查找元素：//*[text()="保存"] (base_handle.py:14)
+2022-08-30 11:05:31 [INFO] 开始查找元素：js_tips (base_handle.py:14)
