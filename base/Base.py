@@ -30,3 +30,7 @@ class Base():
 
     def find_and_text(self, by, locator):
         return self.find(by, locator).text
+
+    def screenshot(self, name):
+        # 截图
+        self.driver.save_screenshot(name)

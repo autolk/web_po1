@@ -26,8 +26,9 @@ def black_wrapper(fun):
             logging.info("当前保存图片的路径 >>>" + os.path.dirname(__file__))
             # 找到images 路径 ，拼接图片名称
             tmp_path = os.path.join(os.path.dirname(__file__), "..", "images", tmp_name)
+            logging.info(tmp_path)
             Base.screenshot(tmp_path)
-            allure.attach.file(tmp_path, name="查找截图", attachment_type=allure.attachment_type.PNG)
+            # allure.attach.file(tmp_path, name="查找截图", attachment_type=allure.attachment_type.PNG)
             raise e
 
     return run
