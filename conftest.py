@@ -31,4 +31,4 @@ def manage_logs(request):
 
 def pytest_configure(config):
     # 如果只需要输出log日志只要设置此行就可下方的都删掉就行，意思设置log输出文件目录
-    config.option.log_file = os.path.join(config.rootdir, 'log', 'test_log')
+    config.option.log_file = os.path.join(config.rootdir, 'log', 'test_log.logs')
