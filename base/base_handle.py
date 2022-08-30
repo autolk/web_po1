@@ -10,11 +10,12 @@ def black_wrapper(fun):
         # from base.Base import Base
         Base = args[0]
         try:
-            logging.info("开始查找元素：{args[2]}")
-            print(args[0])
-            print(args[1])
-            print(args[2])
-            print('1111111111111')
+            # print(args[2])
+            logging.info(f"开始查找元素：{args[2]}")
+            # print(args[0])
+            # print(args[1])
+
+            # print('1111111111111')
             return fun(*args, **kwargs)
         except Exception as e:
             logging.warning("未找到元素，处理导演 ")

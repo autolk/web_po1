@@ -11,8 +11,12 @@ class AddMemberPage(Base):
 
     def fill_info(self,name,accid,phone):
         time.sleep(3)
-        self.driver.find_element(*self._INPUY_USERNAME).send_keys(name)
-        self.driver.find_element(*self._INPUT_ACCID).send_keys(accid)
-        self.driver.find_element(*self._INPUT_PHONE).send_keys(phone)
-        self.driver.find_element(*self._BTN_SAVE).click()
+        # self.driver.find_element(*self._INPUY_USERNAME).send_keys(name)
+        # self.driver.find_element(*self._INPUT_ACCID).send_keys(accid)
+        # self.driver.find_element(*self._INPUT_PHONE).send_keys(phone)
+        # self.driver.find_element(*self._BTN_SAVE).click()
+        self.find_and_send(*self._INPUY_USERNAME,name)
+        self.find_and_send(*self._INPUT_ACCID,accid)
+        self.find_and_send(*self._INPUT_PHONE,phone)
+        self.find_and_click(*self._BTN_SAVE)
         return ContactPage(self.driver)

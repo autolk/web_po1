@@ -27,3 +27,6 @@ class Base():
 
     def find_and_send(self, by, locator, text):
         self.find(by, locator).send_keys(text)
+
+    def find_and_text(self, by, locator):
+        return self.find(by, locator).text
