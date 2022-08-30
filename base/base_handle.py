@@ -28,7 +28,7 @@ def black_wrapper(fun):
             tmp_path = os.path.join(os.path.dirname(__file__), "..", "images", tmp_name)
             logging.info(tmp_path)
             Base.screenshot(tmp_path)
-            # allure.attach.file(tmp_path, name="查找截图", attachment_type=allure.attachment_type.PNG)
+            allure.attach.file(tmp_path, name="查找截图", attachment_type=allure.attachment_type.PNG)
             raise e
 
     return run
